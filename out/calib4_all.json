@@ -1,0 +1,50 @@
+{
+ "deep": {
+  "lam": 0.0,
+  "tau": -0.25,
+  "bacc10": 0.4737919953760577,
+  "bacc1": 0.06758078288096135,
+  "n": 2321,
+  "members": [
+   "d/r/j1d/best.pt",
+   "d/r/p1d/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_deep_c0.npz",
+   "d/o/xv_deep_c1.npz",
+   "d/o/xv_deep_cz0.npz",
+   "d/o/xv_deep_cz1.npz",
+   "d/o/xv_deep_cq0.npz",
+   "d/o/xv_deep_cq1.npz",
+   "d/o/xv_deep_cq2.npz",
+   "d/o/xv_deep_cq3.npz",
+   "d/o/xv_deep_cw0.npz",
+   "d/o/xv_deep_cw1.npz"
+  ],
+  "split": 1
+ },
+ "broad": {
+  "lam": 1.5,
+  "tau": -0.25,
+  "bacc10": 0.4691962071500243,
+  "bacc1": 0.06624559630017361,
+  "n": 6924,
+  "members": [
+   "d/r/j1b/best.pt",
+   "d/r/p1b/best.pt",
+   "d/r/r1b/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_broad_c1.npz",
+   "d/o/xv_broad_cz0.npz",
+   "d/o/xv_broad_cz1.npz",
+   "d/o/xv_broad_cq0.npz",
+   "d/o/xv_broad_cq1.npz",
+   "d/o/xv_broad_cq2.npz",
+   "d/o/xv_broad_cq3.npz",
+   "d/o/xv_broad_cw0.npz",
+   "d/o/xv_broad_cw1.npz"
+  ],
+  "split": 1
+ }
+}

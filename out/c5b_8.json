@@ -1,0 +1,24 @@
+{
+ "broad": {
+  "lam": 1.0,
+  "tau": -0.25,
+  "bacc10": 0.6712773994108387,
+  "bacc1": 0.17098380213043524,
+  "n": 6924,
+  "members": [
+   "d/r/p1b/best.pt",
+   "d/r/r1b/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz"
+  ],
+  "split": 1
+ }
+}

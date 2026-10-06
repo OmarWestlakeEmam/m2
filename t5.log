@@ -1,0 +1,2 @@
+nohup: ignoring input
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 55/195 [00:00<00:00, 545.08it/s]Loading weights:  56%|█████▋    | 110/195 [00:00<00:00, 452.54it/s]Loading weights:  81%|████████  | 157/195 [00:00<00:00, 427.98it/s]Loading weights: 100%|██████████| 195/195 [00:00<00:00, 458.82it/s]

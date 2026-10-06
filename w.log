@@ -1,0 +1,5 @@
+nohup: ignoring input
+23:03:26 preparing 960 scoring windows for deep with 250 pre-onset samples
+23:03:34 parity vs official windows (first 2000 rows): max abs diff 0.0039
+23:03:35 preparing 37439 scoring windows for broad with 250 pre-onset samples
+23:10:50 parity vs official windows (first 2000 rows): max abs diff 0.0039

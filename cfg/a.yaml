@@ -1,0 +1,94 @@
+# Base config: joint training on every subject and corpus.
+paths:
+  root: /data/omar/m2/d                 # raw/, ho/, c/ (cache), e/ (embeddings), r/ (runs), o/ (outputs)
+
+data:
+  subjects: all             # all | deep | broad | [0, 1, 2]
+  corpora: [sherlock, timit, mocha, podcasts]
+  sfreq: 250
+  win: 250                  # 1 s window from word onset
+  frames: 50
+  pre: 0                # sound-head frames per window (50 Hz)
+  tail_frac: 0.2            # shared-audio sessions: last 20% of sentences -> val, for every subject
+  shared: [[Sherlock1, "11"], [Sherlock1, "12"]]
+  val:  [[TheMoth, "29"], [MOCHATIMIT, "2"]]
+  lock: [[TheMoth, "30"], [MOCHATIMIT, "3"]]   # look at these only when picking finals
+
+emb:
+  model: google-t5/t5-large
+  layer: 12
+  contexts: 8
+  batch: 64
+
+model:
+  d: 256
+  depth: 8
+  heads: 4
+  ff: 1024
+  kernel: 15
+  drop: 0.1
+  droppath: 0.1
+  rank: 32
+  out: 512
+  stem_dil: [1, 2, 4]
+
+norm:
+  mode: inst                # inst | robust | sess
+  clamp: 5.0
+
+aug:
+  chan_drop: 0.1
+  scale: 0.1
+  noise: 0.1
+  tmask_p: 0.3
+  tmask_max: 20             # samples (80 ms)
+
+loss:
+  w_word: 1.0
+  w_mean: 0.5
+  w_sound: 0.3
+  w_nb: 0.2
+  tau_train: 1.0            # logit adjustment strength
+  smooth: 0.1
+
+score:
+  lam: 0.5                  # weight of the meaning head at scoring time
+  tau: 0.0                  # extra prior correction at scoring time
+
+train:
+  name: j1
+  who: all                  # all | deep | broad | "1,2,3"
+  init: null
+  freeze: []
+  train_only: []
+  fold: null                # "k/K" leaves out stimulus fold k
+  epochs: 25
+  steps_per_epoch: 2000
+  batch: 512
+  lr: 3.0e-4
+  lr_adapter: 1.0e-3
+  wd: 0.05
+  warmup: 1000
+  clip: 1.0
+  ema: 0.999
+  deep_share: 0.65
+  vocab_boost: 1.5
+  subj_drop: 0.2
+  jitter: 3                 # samples (+-12 ms)
+  avg_p: 0.0
+  pre_mask: 0.1                # same-word averaging at the start of training (ablate before using)
+  workers: 8
+  seed: 0
+  select: mean              # deep | broad | mean
+
+ctx:
+  vocab_only: true          # sequences hold only vocabulary words (set false if the scoring sentences hold every word)
+  max_len: 64
+  d: 384
+  depth: 4
+  heads: 6
+  lr: 3.0e-4
+  epochs: 20
+  batch: 64
+  p_single: 0.15
+  noise: 0.05

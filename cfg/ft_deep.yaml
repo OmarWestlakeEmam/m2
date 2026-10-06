@@ -1,0 +1,14 @@
+# Stage 2 for track one: a few epochs on subject 0 only, low learning rate.
+base: a.yaml
+train:
+  name: j1d
+  who: deep
+  epochs: 3
+  steps_per_epoch: 2000
+  lr: 5.0e-5
+  lr_adapter: 5.0e-5
+  warmup: 200
+  ema: 0.998
+  deep_share: 1.0
+  subj_drop: 0.0
+  select: deep

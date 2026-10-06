@@ -1,0 +1,16 @@
+# Stage 2 for track two: broad subjects only. Adapters learn fast; the top two
+# encoder blocks, pooling and heads move slowly; everything below is frozen.
+base: a.yaml
+train:
+  name: j1b
+  who: broad
+  freeze: [spatial.shared, stem, enc.0., enc.1., enc.2., enc.3., enc.4., enc.5.]
+  epochs: 6
+  steps_per_epoch: 500
+  lr: 3.0e-5
+  lr_adapter: 1.0e-3
+  warmup: 100
+  ema: 0.995
+  deep_share: 0.0
+  subj_drop: 0.2
+  select: broad

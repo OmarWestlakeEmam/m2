@@ -1,0 +1,808 @@
+nohup: ignoring input
+20:11:12 params 16.6M, trainable 16.6M, device cuda
+20:11:12 train rows 490032, val deep 5952, val broad 17940
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:11:32 ep 0 step 100 loss 31.113 word 3.519 mean 51.105 sound 4.384 nb 3.633 lr x0.100 0.18s/step
+20:11:44 ep 0 step 200 loss 23.715 word 3.449 mean 37.357 sound 3.853 nb 2.158 lr x0.200 0.12s/step
+20:11:56 ep 0 step 300 loss 23.542 word 3.450 mean 37.109 sound 3.808 nb 1.975 lr x0.300 0.12s/step
+20:12:08 ep 0 step 400 loss 23.537 word 3.449 mean 37.124 sound 3.780 nb 1.960 lr x0.400 0.12s/step
+20:12:20 ep 0 step 500 loss 23.484 word 3.434 mean 37.058 sound 3.759 nb 1.968 lr x0.499 0.12s/step
+20:12:32 ep 0 step 600 loss 23.320 word 3.439 mean 36.739 sound 3.750 nb 1.934 lr x0.599 0.12s/step
+20:12:44 ep 0 step 700 loss 23.503 word 3.431 mean 37.115 sound 3.748 nb 1.947 lr x0.699 0.12s/step
+20:12:56 ep 0 step 800 loss 23.563 word 3.425 mean 37.250 sound 3.743 nb 1.951 lr x0.798 0.12s/step
+20:13:08 ep 0 step 900 loss 23.568 word 3.414 mean 37.284 sound 3.744 nb 1.948 lr x0.897 0.12s/step
+20:13:20 ep 0 step 1000 loss 23.386 word 3.416 mean 36.909 sound 3.744 nb 1.964 lr x0.996 0.12s/step
+20:13:32 ep 0 step 1100 loss 23.608 word 3.403 mean 37.390 sound 3.743 nb 1.937 lr x0.995 0.12s/step
+20:13:44 ep 0 step 1200 loss 23.303 word 3.414 mean 36.752 sound 3.743 nb 1.952 lr x0.994 0.12s/step
+20:13:56 ep 0 step 1300 loss 23.265 word 3.409 mean 36.690 sound 3.740 nb 1.945 lr x0.993 0.12s/step
+20:14:08 ep 0 step 1400 loss 23.355 word 3.392 mean 36.907 sound 3.734 nb 1.943 lr x0.992 0.12s/step
+20:14:20 ep 0 step 1500 loss 23.233 word 3.388 mean 36.667 sound 3.736 nb 1.949 lr x0.991 0.12s/step
+20:14:32 ep 0 step 1600 loss 23.235 word 3.390 mean 36.666 sound 3.735 nb 1.957 lr x0.989 0.12s/step
+20:14:44 ep 0 step 1700 loss 23.452 word 3.398 mean 37.093 sound 3.732 nb 1.940 lr x0.988 0.12s/step
+20:14:56 ep 0 step 1800 loss 22.936 word 3.393 mean 36.069 sound 3.734 nb 1.942 lr x0.987 0.12s/step
+20:15:08 ep 0 step 1900 loss 23.062 word 3.387 mean 36.339 sound 3.730 nb 1.935 lr x0.985 0.12s/step
+20:15:20 ep 0 step 2000 loss 22.879 word 3.398 mean 35.945 sound 3.732 nb 1.944 lr x0.983 0.12s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:15:24 == epoch 0 deep: bacc10 0.2464 bacc1 0.0289 grid 0.2464@(0.5, 0.0) | broad: bacc10 0.2998 bacc1 0.0387 grid 0.3006@(1.0, 0.0)
+20:15:27 new best 0.2731 -> /data/omar/m2/d/r/f0/best.pt
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:15:43 ep 1 step 2100 loss 23.247 word 3.379 mean 36.726 sound 3.732 nb 1.928 lr x0.982 0.14s/step
+20:15:55 ep 1 step 2200 loss 22.933 word 3.386 mean 36.076 sound 3.732 nb 1.944 lr x0.980 0.12s/step
+20:16:06 ep 1 step 2300 loss 23.017 word 3.378 mean 36.264 sound 3.727 nb 1.942 lr x0.978 0.12s/step
+20:16:19 ep 1 step 2400 loss 23.024 word 3.377 mean 36.276 sound 3.731 nb 1.949 lr x0.976 0.12s/step
+20:16:31 ep 1 step 2500 loss 22.847 word 3.381 mean 35.924 sound 3.728 nb 1.925 lr x0.974 0.12s/step
+20:16:43 ep 1 step 2600 loss 22.923 word 3.379 mean 36.081 sound 3.726 nb 1.929 lr x0.972 0.12s/step
+20:16:55 ep 1 step 2700 loss 22.899 word 3.388 mean 36.019 sound 3.728 nb 1.918 lr x0.970 0.12s/step
+20:17:07 ep 1 step 2800 loss 23.140 word 3.369 mean 36.530 sound 3.726 nb 1.938 lr x0.968 0.12s/step
+20:17:19 ep 1 step 2900 loss 22.958 word 3.369 mean 36.162 sound 3.730 nb 1.943 lr x0.965 0.12s/step
+20:17:31 ep 1 step 3000 loss 22.946 word 3.369 mean 36.142 sound 3.727 nb 1.939 lr x0.963 0.12s/step
+20:17:43 ep 1 step 3100 loss 22.802 word 3.373 mean 35.847 sound 3.727 nb 1.939 lr x0.961 0.12s/step
+20:17:55 ep 1 step 3200 loss 22.954 word 3.367 mean 36.170 sound 3.723 nb 1.927 lr x0.958 0.12s/step
+20:18:07 ep 1 step 3300 loss 22.651 word 3.373 mean 35.549 sound 3.724 nb 1.935 lr x0.955 0.12s/step
+20:18:19 ep 1 step 3400 loss 22.846 word 3.355 mean 35.973 sound 3.719 nb 1.940 lr x0.953 0.12s/step
+20:18:31 ep 1 step 3500 loss 22.785 word 3.357 mean 35.848 sound 3.722 nb 1.933 lr x0.950 0.12s/step
+20:18:43 ep 1 step 3600 loss 22.766 word 3.363 mean 35.800 sound 3.722 nb 1.929 lr x0.947 0.12s/step
+20:18:55 ep 1 step 3700 loss 22.804 word 3.345 mean 35.915 sound 3.719 nb 1.927 lr x0.944 0.12s/step
+20:19:07 ep 1 step 3800 loss 22.744 word 3.366 mean 35.744 sound 3.724 nb 1.945 lr x0.941 0.12s/step
+20:19:19 ep 1 step 3900 loss 23.087 word 3.351 mean 36.468 sound 3.719 nb 1.933 lr x0.938 0.12s/step
+20:19:30 ep 1 step 4000 loss 22.718 word 3.357 mean 35.710 sound 3.718 nb 1.952 lr x0.935 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:19:34 == epoch 1 deep: bacc10 0.2450 bacc1 0.0307 grid 0.2503@(1.0, 0.0) | broad: bacc10 0.3358 bacc1 0.0509 grid 0.3358@(0.5, 0.0)
+20:19:36 new best 0.2904 -> /data/omar/m2/d/r/f0/best.pt
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:19:51 ep 2 step 4100 loss 22.622 word 3.357 mean 35.530 sound 3.719 nb 1.921 lr x0.932 0.13s/step
+20:20:03 ep 2 step 4200 loss 22.895 word 3.346 mean 36.092 sound 3.721 nb 1.932 lr x0.929 0.12s/step
+20:20:14 ep 2 step 4300 loss 22.935 word 3.358 mean 36.154 sound 3.718 nb 1.925 lr x0.925 0.12s/step
+20:20:26 ep 2 step 4400 loss 22.774 word 3.345 mean 35.857 sound 3.718 nb 1.923 lr x0.922 0.12s/step
+20:20:38 ep 2 step 4500 loss 22.788 word 3.355 mean 35.864 sound 3.719 nb 1.928 lr x0.918 0.12s/step
+20:20:50 ep 2 step 4600 loss 22.503 word 3.349 mean 35.305 sound 3.718 nb 1.931 lr x0.915 0.12s/step
+20:21:02 ep 2 step 4700 loss 22.625 word 3.358 mean 35.529 sound 3.718 nb 1.937 lr x0.911 0.12s/step
+20:21:14 ep 2 step 4800 loss 22.922 word 3.346 mean 36.145 sound 3.717 nb 1.937 lr x0.907 0.12s/step
+20:21:26 ep 2 step 4900 loss 22.829 word 3.340 mean 35.974 sound 3.717 nb 1.933 lr x0.904 0.12s/step
+20:21:38 ep 2 step 5000 loss 22.600 word 3.332 mean 35.543 sound 3.713 nb 1.916 lr x0.900 0.12s/step
+20:21:50 ep 2 step 5100 loss 22.447 word 3.346 mean 35.196 sound 3.714 nb 1.946 lr x0.896 0.12s/step
+20:22:02 ep 2 step 5200 loss 22.464 word 3.340 mean 35.249 sound 3.717 nb 1.924 lr x0.892 0.12s/step
+20:22:13 ep 2 step 5300 loss 22.724 word 3.341 mean 35.769 sound 3.711 nb 1.928 lr x0.888 0.12s/step
+20:22:25 ep 2 step 5400 loss 22.555 word 3.338 mean 35.441 sound 3.713 nb 1.915 lr x0.884 0.12s/step
+20:22:37 ep 2 step 5500 loss 22.677 word 3.336 mean 35.680 sound 3.716 nb 1.935 lr x0.880 0.12s/step
+20:22:49 ep 2 step 5600 loss 22.599 word 3.338 mean 35.519 sound 3.714 nb 1.935 lr x0.875 0.12s/step
+20:23:01 ep 2 step 5700 loss 22.743 word 3.339 mean 35.806 sound 3.714 nb 1.931 lr x0.871 0.12s/step
+20:23:13 ep 2 step 5800 loss 22.672 word 3.335 mean 35.684 sound 3.710 nb 1.914 lr x0.867 0.12s/step
+20:23:25 ep 2 step 5900 loss 22.428 word 3.338 mean 35.179 sound 3.715 nb 1.932 lr x0.862 0.12s/step
+20:23:37 ep 2 step 6000 loss 22.629 word 3.327 mean 35.612 sound 3.708 nb 1.919 lr x0.858 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:23:40 == epoch 2 deep: bacc10 0.2615 bacc1 0.0351 grid 0.2627@(1.0, 0.0) | broad: bacc10 0.3398 bacc1 0.0519 grid 0.3463@(1.0, 0.0)
+20:23:42 new best 0.3006 -> /data/omar/m2/d/r/f0/best.pt
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:23:59 ep 3 step 6100 loss 22.464 word 3.330 mean 35.271 sound 3.713 nb 1.919 lr x0.853 0.14s/step
+20:24:10 ep 3 step 6200 loss 22.335 word 3.343 mean 34.986 sound 3.712 nb 1.929 lr x0.849 0.12s/step
+20:24:22 ep 3 step 6300 loss 22.698 word 3.327 mean 35.749 sound 3.710 nb 1.915 lr x0.844 0.12s/step
+20:24:34 ep 3 step 6400 loss 22.418 word 3.336 mean 35.162 sound 3.711 nb 1.938 lr x0.840 0.12s/step
+20:24:46 ep 3 step 6500 loss 22.586 word 3.319 mean 35.540 sound 3.709 nb 1.921 lr x0.835 0.12s/step
+20:24:57 ep 3 step 6600 loss 22.416 word 3.332 mean 35.167 sound 3.710 nb 1.940 lr x0.830 0.12s/step
+20:25:09 ep 3 step 6700 loss 22.444 word 3.326 mean 35.243 sound 3.705 nb 1.925 lr x0.825 0.12s/step
+20:25:21 ep 3 step 6800 loss 22.736 word 3.304 mean 35.864 sound 3.715 nb 1.928 lr x0.820 0.12s/step
+20:25:33 ep 3 step 6900 loss 22.339 word 3.323 mean 35.034 sound 3.709 nb 1.928 lr x0.815 0.12s/step
+20:25:45 ep 3 step 7000 loss 22.566 word 3.315 mean 35.504 sound 3.710 nb 1.929 lr x0.810 0.12s/step
+20:25:57 ep 3 step 7100 loss 22.161 word 3.323 mean 34.683 sound 3.709 nb 1.916 lr x0.805 0.12s/step
+20:26:09 ep 3 step 7200 loss 22.248 word 3.319 mean 34.865 sound 3.708 nb 1.922 lr x0.800 0.12s/step
+20:26:21 ep 3 step 7300 loss 22.453 word 3.313 mean 35.284 sound 3.708 nb 1.928 lr x0.795 0.12s/step
+20:26:33 ep 3 step 7400 loss 22.304 word 3.317 mean 34.977 sound 3.710 nb 1.927 lr x0.790 0.12s/step
+20:26:45 ep 3 step 7500 loss 22.413 word 3.312 mean 35.212 sound 3.703 nb 1.921 lr x0.785 0.12s/step
+20:26:57 ep 3 step 7600 loss 22.311 word 3.313 mean 34.995 sound 3.708 nb 1.940 lr x0.779 0.12s/step
+20:27:09 ep 3 step 7700 loss 22.174 word 3.315 mean 34.727 sound 3.708 nb 1.915 lr x0.774 0.12s/step
+20:27:21 ep 3 step 7800 loss 22.062 word 3.307 mean 34.515 sound 3.703 nb 1.932 lr x0.768 0.12s/step
+20:27:33 ep 3 step 7900 loss 22.235 word 3.320 mean 34.837 sound 3.707 nb 1.924 lr x0.763 0.12s/step
+20:27:44 ep 3 step 8000 loss 22.405 word 3.305 mean 35.209 sound 3.707 nb 1.912 lr x0.758 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:27:47 == epoch 3 deep: bacc10 0.2694 bacc1 0.0340 grid 0.2730@(1.0, 0.0) | broad: bacc10 0.3442 bacc1 0.0508 grid 0.3460@(1.0, 0.0)
+20:27:49 new best 0.3068 -> /data/omar/m2/d/r/f0/best.pt
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:28:06 ep 4 step 8100 loss 22.225 word 3.308 mean 34.847 sound 3.698 nb 1.924 lr x0.752 0.14s/step
+20:28:18 ep 4 step 8200 loss 21.986 word 3.293 mean 34.392 sound 3.705 nb 1.928 lr x0.746 0.12s/step
+20:28:30 ep 4 step 8300 loss 22.436 word 3.302 mean 35.279 sound 3.698 nb 1.927 lr x0.741 0.12s/step
+20:28:42 ep 4 step 8400 loss 22.166 word 3.307 mean 34.730 sound 3.704 nb 1.917 lr x0.735 0.12s/step
+20:28:54 ep 4 step 8500 loss 22.168 word 3.305 mean 34.738 sound 3.704 nb 1.916 lr x0.730 0.12s/step
+20:29:06 ep 4 step 8600 loss 21.842 word 3.296 mean 34.096 sound 3.704 nb 1.936 lr x0.724 0.12s/step
+20:29:18 ep 4 step 8700 loss 22.061 word 3.285 mean 34.564 sound 3.697 nb 1.922 lr x0.718 0.12s/step
+20:29:30 ep 4 step 8800 loss 22.002 word 3.296 mean 34.421 sound 3.705 nb 1.918 lr x0.712 0.12s/step
+20:29:42 ep 4 step 8900 loss 22.032 word 3.307 mean 34.472 sound 3.704 nb 1.894 lr x0.707 0.12s/step
+20:29:53 ep 4 step 9000 loss 22.012 word 3.295 mean 34.445 sound 3.703 nb 1.920 lr x0.701 0.12s/step
+20:30:05 ep 4 step 9100 loss 22.156 word 3.293 mean 34.735 sound 3.704 nb 1.923 lr x0.695 0.12s/step
+20:30:17 ep 4 step 9200 loss 21.936 word 3.299 mean 34.286 sound 3.703 nb 1.920 lr x0.689 0.12s/step
+20:30:29 ep 4 step 9300 loss 22.217 word 3.293 mean 34.862 sound 3.701 nb 1.917 lr x0.683 0.12s/step
+20:30:41 ep 4 step 9400 loss 21.912 word 3.288 mean 34.261 sound 3.699 nb 1.916 lr x0.677 0.12s/step
+20:30:53 ep 4 step 9500 loss 22.194 word 3.282 mean 34.843 sound 3.699 nb 1.904 lr x0.671 0.12s/step
+20:31:05 ep 4 step 9600 loss 21.814 word 3.291 mean 34.056 sound 3.706 nb 1.916 lr x0.665 0.12s/step
+20:31:17 ep 4 step 9700 loss 22.092 word 3.284 mean 34.639 sound 3.700 nb 1.893 lr x0.659 0.12s/step
+20:31:29 ep 4 step 9800 loss 21.750 word 3.289 mean 33.938 sound 3.698 nb 1.913 lr x0.653 0.12s/step
+20:31:40 ep 4 step 9900 loss 21.998 word 3.282 mean 34.441 sound 3.701 nb 1.929 lr x0.647 0.12s/step
+20:31:52 ep 4 step 10000 loss 22.051 word 3.283 mean 34.549 sound 3.701 nb 1.920 lr x0.641 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:31:54 == epoch 4 deep: bacc10 0.2751 bacc1 0.0382 grid 0.2751@(0.5, 0.0) | broad: bacc10 0.3426 bacc1 0.0517 grid 0.3525@(1.0, 0.0)
+20:31:56 new best 0.3089 -> /data/omar/m2/d/r/f0/best.pt
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:32:11 ep 5 step 10100 loss 21.714 word 3.273 mean 33.897 sound 3.699 nb 1.916 lr x0.634 0.14s/step
+20:32:23 ep 5 step 10200 loss 21.862 word 3.269 mean 34.202 sound 3.699 nb 1.915 lr x0.628 0.12s/step
+20:32:34 ep 5 step 10300 loss 21.658 word 3.266 mean 33.795 sound 3.700 nb 1.920 lr x0.622 0.12s/step
+20:32:46 ep 5 step 10400 loss 21.789 word 3.277 mean 34.045 sound 3.701 nb 1.898 lr x0.616 0.12s/step
+20:32:58 ep 5 step 10500 loss 21.542 word 3.267 mean 33.565 sound 3.697 nb 1.917 lr x0.610 0.12s/step
+20:33:10 ep 5 step 10600 loss 21.943 word 3.269 mean 34.364 sound 3.695 nb 1.913 lr x0.603 0.12s/step
+20:33:22 ep 5 step 10700 loss 21.763 word 3.268 mean 34.007 sound 3.696 nb 1.909 lr x0.597 0.12s/step
+20:33:34 ep 5 step 10800 loss 21.771 word 3.260 mean 34.041 sound 3.697 nb 1.907 lr x0.591 0.12s/step
+20:33:46 ep 5 step 10900 loss 21.655 word 3.254 mean 33.820 sound 3.694 nb 1.911 lr x0.585 0.12s/step
+20:33:58 ep 5 step 11000 loss 21.618 word 3.258 mean 33.737 sound 3.697 nb 1.911 lr x0.578 0.12s/step
+20:34:10 ep 5 step 11100 loss 21.735 word 3.256 mean 33.984 sound 3.700 nb 1.883 lr x0.572 0.12s/step
+20:34:22 ep 5 step 11200 loss 21.508 word 3.246 mean 33.546 sound 3.697 nb 1.899 lr x0.566 0.12s/step
+20:34:34 ep 5 step 11300 loss 21.435 word 3.268 mean 33.353 sound 3.696 nb 1.913 lr x0.559 0.12s/step
+20:34:46 ep 5 step 11400 loss 21.620 word 3.254 mean 33.752 sound 3.695 nb 1.912 lr x0.553 0.12s/step
+20:34:58 ep 5 step 11500 loss 21.665 word 3.249 mean 33.851 sound 3.697 nb 1.910 lr x0.547 0.12s/step
+20:35:10 ep 5 step 11600 loss 21.673 word 3.247 mean 33.875 sound 3.694 nb 1.903 lr x0.540 0.12s/step
+20:35:22 ep 5 step 11700 loss 21.412 word 3.246 mean 33.350 sound 3.699 nb 1.909 lr x0.534 0.12s/step
+20:35:34 ep 5 step 11800 loss 21.519 word 3.245 mean 33.569 sound 3.696 nb 1.904 lr x0.528 0.12s/step
+20:35:46 ep 5 step 11900 loss 21.445 word 3.246 mean 33.418 sound 3.693 nb 1.911 lr x0.521 0.12s/step
+20:35:57 ep 5 step 12000 loss 21.287 word 3.248 mean 33.100 sound 3.692 nb 1.908 lr x0.515 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:36:01 == epoch 5 deep: bacc10 0.2738 bacc1 0.0367 grid 0.2738@(0.5, 0.0) | broad: bacc10 0.3406 bacc1 0.0524 grid 0.3514@(1.0, 0.0)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:36:16 ep 6 step 12100 loss 21.234 word 3.247 mean 32.992 sound 3.699 nb 1.908 lr x0.509 0.14s/step
+20:36:28 ep 6 step 12200 loss 21.667 word 3.227 mean 33.904 sound 3.691 nb 1.905 lr x0.502 0.12s/step
+20:36:40 ep 6 step 12300 loss 21.169 word 3.246 mean 32.870 sound 3.689 nb 1.906 lr x0.496 0.12s/step
+20:36:51 ep 6 step 12400 loss 21.336 word 3.239 mean 33.215 sound 3.697 nb 1.902 lr x0.490 0.11s/step
+20:37:03 ep 6 step 12500 loss 21.330 word 3.234 mean 33.209 sound 3.697 nb 1.910 lr x0.483 0.12s/step
+20:37:15 ep 6 step 12600 loss 21.379 word 3.230 mean 33.324 sound 3.692 nb 1.897 lr x0.477 0.12s/step
+20:37:27 ep 6 step 12700 loss 21.221 word 3.226 mean 33.015 sound 3.693 nb 1.897 lr x0.471 0.12s/step
+20:37:39 ep 6 step 12800 loss 21.280 word 3.229 mean 33.126 sound 3.689 nb 1.907 lr x0.464 0.12s/step
+20:37:51 ep 6 step 12900 loss 21.275 word 3.222 mean 33.139 sound 3.684 nb 1.893 lr x0.458 0.12s/step
+20:38:03 ep 6 step 13000 loss 21.119 word 3.234 mean 32.790 sound 3.695 nb 1.907 lr x0.452 0.12s/step
+20:38:15 ep 6 step 13100 loss 21.057 word 3.222 mean 32.688 sound 3.695 nb 1.913 lr x0.445 0.12s/step
+20:38:27 ep 6 step 13200 loss 21.222 word 3.232 mean 33.007 sound 3.689 nb 1.898 lr x0.439 0.12s/step
+20:38:39 ep 6 step 13300 loss 21.285 word 3.205 mean 33.188 sound 3.692 nb 1.894 lr x0.433 0.12s/step
+20:38:51 ep 6 step 13400 loss 21.319 word 3.215 mean 33.232 sound 3.691 nb 1.903 lr x0.427 0.12s/step
+20:39:03 ep 6 step 13500 loss 21.233 word 3.206 mean 33.088 sound 3.691 nb 1.880 lr x0.420 0.12s/step
+20:39:15 ep 6 step 13600 loss 20.820 word 3.212 mean 32.240 sound 3.689 nb 1.904 lr x0.414 0.12s/step
+20:39:27 ep 6 step 13700 loss 20.791 word 3.209 mean 32.189 sound 3.693 nb 1.900 lr x0.408 0.12s/step
+20:39:39 ep 6 step 13800 loss 20.967 word 3.202 mean 32.550 sound 3.690 nb 1.913 lr x0.402 0.12s/step
+20:39:51 ep 6 step 13900 loss 20.938 word 3.213 mean 32.478 sound 3.687 nb 1.897 lr x0.396 0.12s/step
+20:40:02 ep 6 step 14000 loss 21.108 word 3.197 mean 32.854 sound 3.690 nb 1.886 lr x0.390 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:40:05 == epoch 6 deep: bacc10 0.2801 bacc1 0.0394 grid 0.2855@(1.0, 0.0) | broad: bacc10 0.3467 bacc1 0.0517 grid 0.3591@(1.0, 0.0)
+20:40:07 new best 0.3134 -> /data/omar/m2/d/r/f0/best.pt
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:40:23 ep 7 step 14100 loss 21.107 word 3.200 mean 32.841 sound 3.689 nb 1.900 lr x0.383 0.14s/step
+20:40:35 ep 7 step 14200 loss 21.142 word 3.202 mean 32.914 sound 3.692 nb 1.876 lr x0.377 0.11s/step
+20:40:46 ep 7 step 14300 loss 20.879 word 3.196 mean 32.402 sound 3.687 nb 1.878 lr x0.371 0.11s/step
+20:40:58 ep 7 step 14400 loss 21.007 word 3.200 mean 32.639 sound 3.689 nb 1.900 lr x0.365 0.12s/step
+20:41:10 ep 7 step 14500 loss 20.910 word 3.187 mean 32.474 sound 3.685 nb 1.900 lr x0.359 0.12s/step
+20:41:22 ep 7 step 14600 loss 20.750 word 3.190 mean 32.147 sound 3.692 nb 1.894 lr x0.353 0.12s/step
+20:41:33 ep 7 step 14700 loss 20.521 word 3.200 mean 31.668 sound 3.691 nb 1.898 lr x0.347 0.12s/step
+20:41:45 ep 7 step 14800 loss 20.708 word 3.187 mean 32.070 sound 3.692 nb 1.890 lr x0.341 0.12s/step
+20:41:57 ep 7 step 14900 loss 20.905 word 3.196 mean 32.440 sound 3.692 nb 1.906 lr x0.335 0.12s/step
+20:42:09 ep 7 step 15000 loss 20.706 word 3.202 mean 32.040 sound 3.686 nb 1.892 lr x0.329 0.12s/step
+20:42:21 ep 7 step 15100 loss 20.770 word 3.192 mean 32.181 sound 3.689 nb 1.900 lr x0.324 0.12s/step
+20:42:33 ep 7 step 15200 loss 20.830 word 3.188 mean 32.318 sound 3.688 nb 1.880 lr x0.318 0.12s/step
+20:42:45 ep 7 step 15300 loss 20.721 word 3.182 mean 32.110 sound 3.686 nb 1.892 lr x0.312 0.12s/step
+20:42:57 ep 7 step 15400 loss 20.898 word 3.180 mean 32.473 sound 3.690 nb 1.872 lr x0.306 0.12s/step
+20:43:09 ep 7 step 15500 loss 20.653 word 3.163 mean 32.017 sound 3.688 nb 1.877 lr x0.301 0.12s/step
+20:43:21 ep 7 step 15600 loss 20.587 word 3.178 mean 31.850 sound 3.683 nb 1.894 lr x0.295 0.12s/step
+20:43:32 ep 7 step 15700 loss 20.693 word 3.181 mean 32.062 sound 3.687 nb 1.874 lr x0.289 0.12s/step
+20:43:44 ep 7 step 15800 loss 20.498 word 3.174 mean 31.671 sound 3.693 nb 1.904 lr x0.284 0.12s/step
+20:43:56 ep 7 step 15900 loss 20.423 word 3.180 mean 31.521 sound 3.683 nb 1.889 lr x0.278 0.12s/step
+20:44:08 ep 7 step 16000 loss 20.599 word 3.176 mean 31.877 sound 3.685 nb 1.890 lr x0.273 0.12s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:44:11 == epoch 7 deep: bacc10 0.2773 bacc1 0.0455 grid 0.2988@(1.0, 0.0) | broad: bacc10 0.3406 bacc1 0.0501 grid 0.3591@(1.0, 0.0)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:44:26 ep 8 step 16100 loss 20.447 word 3.167 mean 31.602 sound 3.689 nb 1.859 lr x0.267 0.14s/step
+20:44:38 ep 8 step 16200 loss 20.674 word 3.172 mean 32.031 sound 3.686 nb 1.899 lr x0.262 0.12s/step
+20:44:50 ep 8 step 16300 loss 20.530 word 3.166 mean 31.767 sound 3.682 nb 1.878 lr x0.256 0.12s/step
+20:45:02 ep 8 step 16400 loss 20.574 word 3.169 mean 31.848 sound 3.690 nb 1.871 lr x0.251 0.12s/step
+20:45:14 ep 8 step 16500 loss 20.719 word 3.158 mean 32.154 sound 3.684 nb 1.896 lr x0.246 0.12s/step
+20:45:26 ep 8 step 16600 loss 20.625 word 3.160 mean 31.959 sound 3.686 nb 1.900 lr x0.240 0.12s/step
+20:45:38 ep 8 step 16700 loss 20.513 word 3.162 mean 31.739 sound 3.687 nb 1.878 lr x0.235 0.12s/step
+20:45:50 ep 8 step 16800 loss 20.491 word 3.164 mean 31.691 sound 3.684 nb 1.881 lr x0.230 0.12s/step
+20:46:02 ep 8 step 16900 loss 20.435 word 3.173 mean 31.556 sound 3.686 nb 1.893 lr x0.225 0.12s/step
+20:46:14 ep 8 step 17000 loss 20.636 word 3.161 mean 31.983 sound 3.687 nb 1.888 lr x0.220 0.12s/step
+20:46:27 ep 8 step 17100 loss 20.502 word 3.155 mean 31.725 sound 3.687 nb 1.890 lr x0.215 0.12s/step
+20:46:39 ep 8 step 17200 loss 20.509 word 3.162 mean 31.736 sound 3.688 nb 1.861 lr x0.210 0.12s/step
+20:46:51 ep 8 step 17300 loss 20.489 word 3.161 mean 31.690 sound 3.689 nb 1.887 lr x0.205 0.13s/step
+20:47:04 ep 8 step 17400 loss 20.179 word 3.162 mean 31.074 sound 3.678 nb 1.886 lr x0.200 0.12s/step
+20:47:16 ep 8 step 17500 loss 20.201 word 3.147 mean 31.142 sound 3.683 nb 1.888 lr x0.195 0.12s/step
+20:47:28 ep 8 step 17600 loss 20.391 word 3.141 mean 31.539 sound 3.685 nb 1.879 lr x0.191 0.12s/step
+20:47:41 ep 8 step 17700 loss 20.191 word 3.135 mean 31.144 sound 3.684 nb 1.895 lr x0.186 0.12s/step
+20:47:53 ep 8 step 17800 loss 20.413 word 3.144 mean 31.571 sound 3.682 nb 1.896 lr x0.181 0.12s/step
+20:48:05 ep 8 step 17900 loss 20.353 word 3.155 mean 31.439 sound 3.681 nb 1.872 lr x0.177 0.12s/step
+20:48:17 ep 8 step 18000 loss 20.348 word 3.152 mean 31.430 sound 3.684 nb 1.880 lr x0.172 0.12s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:48:22 == epoch 8 deep: bacc10 0.2791 bacc1 0.0452 grid 0.2984@(1.0, 0.0) | broad: bacc10 0.3449 bacc1 0.0501 grid 0.3588@(1.0, 0.0)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:48:37 ep 9 step 18100 loss 20.231 word 3.143 mean 31.216 sound 3.685 nb 1.875 lr x0.168 0.14s/step
+20:48:50 ep 9 step 18200 loss 20.378 word 3.133 mean 31.527 sound 3.681 nb 1.884 lr x0.163 0.12s/step
+20:49:02 ep 9 step 18300 loss 20.164 word 3.140 mean 31.083 sound 3.679 nb 1.898 lr x0.159 0.13s/step
+20:49:14 ep 9 step 18400 loss 20.045 word 3.140 mean 30.843 sound 3.684 nb 1.888 lr x0.155 0.12s/step
+20:49:27 ep 9 step 18500 loss 20.303 word 3.136 mean 31.367 sound 3.684 nb 1.893 lr x0.150 0.12s/step
+20:49:38 ep 9 step 18600 loss 20.068 word 3.146 mean 30.886 sound 3.680 nb 1.877 lr x0.146 0.12s/step
+20:49:50 ep 9 step 18700 loss 20.185 word 3.144 mean 31.113 sound 3.684 nb 1.897 lr x0.142 0.12s/step
+20:50:02 ep 9 step 18800 loss 20.106 word 3.134 mean 30.979 sound 3.682 nb 1.886 lr x0.138 0.12s/step
+20:50:14 ep 9 step 18900 loss 20.047 word 3.139 mean 30.862 sound 3.682 nb 1.863 lr x0.134 0.12s/step
+20:50:25 ep 9 step 19000 loss 20.040 word 3.140 mean 30.835 sound 3.683 nb 1.889 lr x0.130 0.12s/step
+20:50:37 ep 9 step 19100 loss 20.256 word 3.124 mean 31.300 sound 3.686 nb 1.883 lr x0.126 0.12s/step
+20:50:49 ep 9 step 19200 loss 20.190 word 3.129 mean 31.165 sound 3.684 nb 1.869 lr x0.123 0.12s/step
+20:51:00 ep 9 step 19300 loss 20.012 word 3.116 mean 30.837 sound 3.681 nb 1.867 lr x0.119 0.12s/step
+20:51:12 ep 9 step 19400 loss 20.217 word 3.129 mean 31.211 sound 3.682 nb 1.888 lr x0.115 0.12s/step
+20:51:24 ep 9 step 19500 loss 19.875 word 3.135 mean 30.518 sound 3.680 nb 1.884 lr x0.112 0.12s/step
+20:51:36 ep 9 step 19600 loss 20.152 word 3.113 mean 31.121 sound 3.680 nb 1.871 lr x0.108 0.12s/step
+20:51:47 ep 9 step 19700 loss 20.175 word 3.139 mean 31.114 sound 3.682 nb 1.874 lr x0.105 0.12s/step
+20:51:59 ep 9 step 19800 loss 20.075 word 3.123 mean 30.950 sound 3.682 nb 1.860 lr x0.102 0.12s/step
+20:52:11 ep 9 step 19900 loss 19.978 word 3.135 mean 30.723 sound 3.686 nb 1.883 lr x0.098 0.12s/step
+20:52:22 ep 9 step 20000 loss 20.080 word 3.119 mean 30.966 sound 3.682 nb 1.868 lr x0.095 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:52:27 == epoch 9 deep: bacc10 0.2798 bacc1 0.0418 grid 0.2984@(1.0, 0.0) | broad: bacc10 0.3418 bacc1 0.0503 grid 0.3593@(1.0, 0.0)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:52:40 ep 10 step 20100 loss 20.028 word 3.135 mean 30.822 sound 3.682 nb 1.890 lr x0.092 0.13s/step
+20:52:52 ep 10 step 20200 loss 19.816 word 3.122 mean 30.429 sound 3.681 nb 1.877 lr x0.089 0.11s/step
+20:53:04 ep 10 step 20300 loss 19.830 word 3.113 mean 30.478 sound 3.680 nb 1.873 lr x0.086 0.12s/step
+20:53:15 ep 10 step 20400 loss 20.035 word 3.126 mean 30.856 sound 3.685 nb 1.878 lr x0.083 0.12s/step
+20:53:27 ep 10 step 20500 loss 19.881 word 3.122 mean 30.563 sound 3.680 nb 1.869 lr x0.080 0.12s/step
+20:53:39 ep 10 step 20600 loss 20.168 word 3.129 mean 31.123 sound 3.679 nb 1.873 lr x0.077 0.12s/step
+20:53:50 ep 10 step 20700 loss 20.163 word 3.118 mean 31.129 sound 3.682 nb 1.881 lr x0.075 0.12s/step
+20:54:02 ep 10 step 20800 loss 20.033 word 3.121 mean 30.867 sound 3.679 nb 1.873 lr x0.072 0.12s/step
+20:54:14 ep 10 step 20900 loss 19.967 word 3.128 mean 30.710 sound 3.682 nb 1.894 lr x0.069 0.12s/step
+20:54:26 ep 10 step 21000 loss 19.830 word 3.105 mean 30.488 sound 3.684 nb 1.882 lr x0.067 0.12s/step
+20:54:38 ep 10 step 21100 loss 19.975 word 3.115 mean 30.756 sound 3.683 nb 1.882 lr x0.065 0.12s/step
+20:54:49 ep 10 step 21200 loss 19.813 word 3.117 mean 30.435 sound 3.681 nb 1.870 lr x0.062 0.12s/step
+20:55:01 ep 10 step 21300 loss 19.949 word 3.116 mean 30.703 sound 3.681 nb 1.886 lr x0.060 0.12s/step
+20:55:13 ep 10 step 21400 loss 19.869 word 3.110 mean 30.556 sound 3.685 nb 1.877 lr x0.058 0.12s/step
+20:55:24 ep 10 step 21500 loss 20.079 word 3.094 mean 31.012 sound 3.680 nb 1.877 lr x0.056 0.12s/step
+20:55:36 ep 10 step 21600 loss 19.807 word 3.126 mean 30.398 sound 3.684 nb 1.883 lr x0.054 0.12s/step
+20:55:48 ep 10 step 21700 loss 19.928 word 3.120 mean 30.665 sound 3.684 nb 1.856 lr x0.052 0.12s/step
+20:56:00 ep 10 step 21800 loss 19.792 word 3.119 mean 30.386 sound 3.685 nb 1.872 lr x0.050 0.12s/step
+20:56:12 ep 10 step 21900 loss 19.715 word 3.102 mean 30.259 sound 3.678 nb 1.896 lr x0.048 0.12s/step
+20:56:23 ep 10 step 22000 loss 19.944 word 3.112 mean 30.715 sound 3.675 nb 1.859 lr x0.047 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:56:27 == epoch 10 deep: bacc10 0.2805 bacc1 0.0422 grid 0.3017@(1.0, 0.0) | broad: bacc10 0.3420 bacc1 0.0488 grid 0.3624@(1.0, 0.0)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+20:56:42 ep 11 step 22100 loss 19.827 word 3.111 mean 30.473 sound 3.681 nb 1.878 lr x0.045 0.13s/step
+20:56:54 ep 11 step 22200 loss 19.838 word 3.118 mean 30.480 sound 3.680 nb 1.881 lr x0.043 0.11s/step
+20:57:05 ep 11 step 22300 loss 19.873 word 3.106 mean 30.576 sound 3.683 nb 1.870 lr x0.042 0.12s/step
+20:57:18 ep 11 step 22400 loss 19.852 word 3.117 mean 30.509 sound 3.679 nb 1.880 lr x0.041 0.12s/step
+20:57:30 ep 11 step 22500 loss 19.844 word 3.110 mean 30.511 sound 3.679 nb 1.871 lr x0.039 0.12s/step
+20:57:42 ep 11 step 22600 loss 19.780 word 3.113 mean 30.365 sound 3.685 nb 1.896 lr x0.038 0.12s/step
+20:57:53 ep 11 step 22700 loss 19.995 word 3.097 mean 30.834 sound 3.684 nb 1.879 lr x0.037 0.12s/step
+20:58:05 ep 11 step 22800 loss 19.867 word 3.113 mean 30.548 sound 3.682 nb 1.877 lr x0.036 0.12s/step
+20:58:17 ep 11 step 22900 loss 19.675 word 3.098 mean 30.194 sound 3.680 nb 1.881 lr x0.035 0.12s/step
+20:58:29 ep 11 step 23000 loss 19.600 word 3.113 mean 30.018 sound 3.680 nb 1.865 lr x0.034 0.12s/step
+20:58:41 ep 11 step 23100 loss 19.925 word 3.096 mean 30.699 sound 3.685 nb 1.871 lr x0.033 0.12s/step
+20:58:52 ep 11 step 23200 loss 19.845 word 3.113 mean 30.505 sound 3.684 nb 1.874 lr x0.033 0.12s/step
+20:59:04 ep 11 step 23300 loss 19.937 word 3.113 mean 30.691 sound 3.682 nb 1.871 lr x0.032 0.12s/step
+20:59:16 ep 11 step 23400 loss 19.750 word 3.104 mean 30.339 sound 3.683 nb 1.856 lr x0.032 0.12s/step
+20:59:28 ep 11 step 23500 loss 19.812 word 3.104 mean 30.453 sound 3.680 nb 1.886 lr x0.031 0.12s/step
+20:59:40 ep 11 step 23600 loss 19.709 word 3.115 mean 30.228 sound 3.686 nb 1.871 lr x0.031 0.12s/step
+20:59:52 ep 11 step 23700 loss 19.875 word 3.099 mean 30.597 sound 3.678 nb 1.870 lr x0.030 0.12s/step
+21:00:03 ep 11 step 23800 loss 19.798 word 3.094 mean 30.446 sound 3.684 nb 1.877 lr x0.030 0.12s/step
+21:00:15 ep 11 step 23900 loss 19.689 word 3.097 mean 30.225 sound 3.684 nb 1.870 lr x0.030 0.12s/step
+21:00:27 ep 11 step 24000 loss 19.849 word 3.086 mean 30.571 sound 3.682 nb 1.866 lr x0.030 0.11s/step
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+21:00:30 == epoch 11 deep: bacc10 0.2779 bacc1 0.0409 grid 0.3053@(1.0, 0.0) | broad: bacc10 0.3354 bacc1 0.0476 grid 0.3595@(1.0, 0.0)
+21:00:31 done. best mean bacc10 0.3134
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+21:01:39 features for 427079 rows -> /data/omar/m2/d/r/c0/feat.npz
+21:01:43 29044 train sequences, 480 val sequences
+/data/omar/m2/core/ctx.py:37: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+21:01:55 ctx epoch 0: val bacc10 0.2397 (base 0.2255)
+21:02:02 ctx epoch 1: val bacc10 0.2708 (base 0.2255)
+21:02:09 ctx epoch 2: val bacc10 0.2591 (base 0.2255)
+21:02:15 ctx epoch 3: val bacc10 0.2713 (base 0.2255)
+21:02:21 ctx epoch 4: val bacc10 0.2890 (base 0.2255)
+21:02:29 ctx epoch 5: val bacc10 0.2803 (base 0.2255)
+21:02:34 ctx epoch 6: val bacc10 0.2954 (base 0.2255)
+21:02:41 ctx epoch 7: val bacc10 0.3136 (base 0.2255)
+21:02:47 ctx epoch 8: val bacc10 0.3278 (base 0.2255)
+21:02:53 ctx epoch 9: val bacc10 0.3127 (base 0.2255)
+21:02:58 ctx epoch 10: val bacc10 0.3416 (base 0.2255)
+21:03:04 ctx epoch 11: val bacc10 0.3405 (base 0.2255)
+21:03:10 ctx epoch 12: val bacc10 0.3528 (base 0.2255)
+21:03:16 ctx epoch 13: val bacc10 0.3469 (base 0.2255)
+21:03:24 ctx epoch 14: val bacc10 0.3502 (base 0.2255)
+21:03:30 ctx epoch 15: val bacc10 0.3582 (base 0.2255)
+21:03:36 ctx epoch 16: val bacc10 0.3252 (base 0.2255)
+21:03:42 ctx epoch 17: val bacc10 0.3577 (base 0.2255)
+21:03:47 ctx epoch 18: val bacc10 0.3612 (base 0.2255)
+21:03:53 ctx epoch 19: val bacc10 0.3623 (base 0.2255)
+21:03:54 best ctx val bacc10 0.3623 -> /data/omar/m2/d/r/c0/ctx.pt
+/data/omar/m2/core/ctx.py:37: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+21:03:57 -> /data/omar/m2/d/o/xv_deep_c0.npz
+/data/omar/m2/core/ctx.py:37: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+21:04:01 -> /data/omar/m2/d/o/xv_broad_c0.npz
+/data/omar/m2/core/ctx.py:37: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+/data/omar/m2/core/ho.py:73: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  yield torch.from_numpy(np.ascontiguousarray(x[a:a + bs])), torch.as_tensor(sid[a:a + bs], dtype=torch.long)
+21:04:04 -> /data/omar/m2/d/o/x_deep_c0.npz (248 groups)
+/data/omar/m2/core/ctx.py:37: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+/data/omar/m2/core/ho.py:73: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  yield torch.from_numpy(np.ascontiguousarray(x[a:a + bs])), torch.as_tensor(sid[a:a + bs], dtype=torch.long)
+21:04:10 -> /data/omar/m2/d/o/x_broad_c0.npz (9671 groups)
+CTX 0 DONE

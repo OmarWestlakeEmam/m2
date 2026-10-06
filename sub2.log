@@ -1,0 +1,40 @@
+nohup: ignoring input
+21:05:51 2321 labelled rows (deep, split 1)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+21:05:53 member d/r/j1d/best.pt: bacc10 0.3331 (lam .5, tau 0)
+21:05:55 extra d/o/xv_deep_c0.npz: bacc10 0.3623
+21:05:56 extra d/o/xv_deep_c1.npz: bacc10 0.3407
+21:05:56 ensemble of 3: bacc10 0.3922 bacc1 0.0635 at lam 0.75 tau -0.25
+21:05:56 -> d/o/calib_ctx.json
+21:05:59 6924 labelled rows (broad, split 1)
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+/data/omar/m2/core/data.py:97: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return (torch.from_numpy(np.ascontiguousarray(x)),
+21:06:01 member d/r/j1b/best.pt: bacc10 0.3200 (lam .5, tau 0)
+21:06:22 extra d/o/xv_broad_c0.npz: bacc10 0.2082
+21:06:36 extra d/o/xv_broad_c1.npz: bacc10 0.3223
+21:06:36 ensemble of 3: bacc10 0.4090 bacc1 0.0594 at lam 0.0 tau -0.5
+21:06:36 -> d/o/calib_ctx.json
+21:06:39 lam 0.75 tau -0.25
+/data/omar/m2/core/ho.py:73: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  yield torch.from_numpy(np.ascontiguousarray(x[a:a + bs])), torch.as_tensor(sid[a:a + bs], dtype=torch.long)
+21:06:40 member d/r/j1d/best.pt done
+21:06:40 wrote /data/omar/m2/d/o/sub_deep_ctx.csv: 960 rows; top-1 picks cover 35 of 50 words
+21:06:42 lam 0.0 tau -0.5
+/data/omar/m2/core/ho.py:73: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  yield torch.from_numpy(np.ascontiguousarray(x[a:a + bs])), torch.as_tensor(sid[a:a + bs], dtype=torch.long)
+21:06:46 member d/r/j1b/best.pt done
+21:06:48 wrote /data/omar/m2/d/o/sub_broad_ctx.csv: 37439 rows; top-1 picks cover 33 of 50 words
+SUBMISSION 2 READY

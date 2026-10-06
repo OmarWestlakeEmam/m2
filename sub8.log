@@ -1,0 +1,30 @@
+nohup: ignoring input
+=== single-model check deep
+05:03:14 extra d/o/xv_deep_s2.npz: bacc10 0.6202
+05:03:21 extra d/o/xv_deep_s6.npz: bacc10 0.6044
+05:03:27 extra d/o/xv_deep_s7.npz: bacc10 0.6217
+05:03:33 extra d/o/xv_deep_s8.npz: bacc10 0.6015
+05:03:40 extra d/o/xv_deep_s9.npz: bacc10 0.6204
+05:03:46 extra d/o/xv_deep_s10.npz: bacc10 0.6143
+05:03:52 extra d/o/xv_deep_s11.npz: bacc10 0.6196
+=== single-model check broad
+05:04:18 extra d/o/xv_broad_s2.npz: bacc10 0.6626
+05:04:44 extra d/o/xv_broad_s6.npz: bacc10 0.6730
+05:05:09 extra d/o/xv_broad_s7.npz: bacc10 0.5860
+05:05:36 extra d/o/xv_broad_s8.npz: bacc10 0.6554
+05:06:02 extra d/o/xv_broad_s9.npz: bacc10 0.6755
+05:06:28 extra d/o/xv_broad_s10.npz: bacc10 0.6010
+05:06:53 extra d/o/xv_broad_s11.npz: bacc10 0.6632
+=== deep k1
+05:07:24 ensemble of 18: bacc10 0.6489 bacc1 0.1336 at lam 0.75 tau -0.5
+05:07:27 wrote /data/omar/m2/d/o/sub_deep_8k1.csv: 960 rows; top-1 picks cover 38 of 50 words
+=== broad k1
+05:09:54 ensemble of 13: bacc10 0.7013 bacc1 0.1635 at lam 2.0 tau -0.25
+05:10:10 wrote /data/omar/m2/d/o/sub_broad_8k1.csv: 37439 rows; top-1 picks cover 46 of 50 words
+=== deep k2
+05:10:50 ensemble of 29: bacc10 0.6447 bacc1 0.1304 at lam 1.0 tau -0.5
+05:10:53 wrote /data/omar/m2/d/o/sub_deep_8k2.csv: 960 rows; top-1 picks cover 37 of 50 words
+=== broad k2
+05:15:42 ensemble of 24: bacc10 0.7020 bacc1 0.1686 at lam 1.5 tau -0.25
+05:16:00 wrote /data/omar/m2/d/o/sub_broad_8k2.csv: 37439 rows; top-1 picks cover 47 of 50 words
+SUBMISSION 8 READY

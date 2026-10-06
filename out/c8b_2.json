@@ -1,0 +1,38 @@
+{
+ "broad": {
+  "lam": 1.5,
+  "tau": -0.25,
+  "bacc10": 0.701965099896978,
+  "bacc1": 0.16861014745994696,
+  "n": 6924,
+  "members": [
+   "d/r/p1b/best.pt",
+   "d/r/r1b/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s2.npz",
+   "d/o/xv_broad_s2.npz",
+   "d/o/xv_broad_s3.npz",
+   "d/o/xv_broad_s3.npz",
+   "d/o/xv_broad_s4.npz",
+   "d/o/xv_broad_s4.npz",
+   "d/o/xv_broad_s5.npz",
+   "d/o/xv_broad_s5.npz",
+   "d/o/xv_broad_s6.npz",
+   "d/o/xv_broad_s6.npz",
+   "d/o/xv_broad_s7.npz",
+   "d/o/xv_broad_s7.npz",
+   "d/o/xv_broad_s8.npz",
+   "d/o/xv_broad_s8.npz",
+   "d/o/xv_broad_s9.npz",
+   "d/o/xv_broad_s9.npz",
+   "d/o/xv_broad_s10.npz",
+   "d/o/xv_broad_s10.npz",
+   "d/o/xv_broad_s11.npz",
+   "d/o/xv_broad_s11.npz"
+  ],
+  "split": 1
+ }
+}

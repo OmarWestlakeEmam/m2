@@ -1,0 +1,12 @@
+nohup: ignoring input
+=== all
+01:13:10 ensemble of 12: bacc10 0.4738 bacc1 0.0676 at lam 0.0 tau -0.25
+01:15:21 ensemble of 12: bacc10 0.4692 bacc1 0.0662 at lam 1.5 tau -0.25
+01:15:26 wrote /data/omar/m2/d/o/sub_deep_4all.csv: 960 rows; top-1 picks cover 38 of 50 words
+01:15:48 wrote /data/omar/m2/d/o/sub_broad_4all.csv: 37439 rows; top-1 picks cover 41 of 50 words
+=== strong
+01:16:00 ensemble of 7: bacc10 0.5021 bacc1 0.0821 at lam 0.25 tau -0.25
+01:17:49 ensemble of 8: bacc10 0.4456 bacc1 0.0635 at lam 1.0 tau -0.25
+01:17:53 wrote /data/omar/m2/d/o/sub_deep_4strong.csv: 960 rows; top-1 picks cover 40 of 50 words
+01:18:08 wrote /data/omar/m2/d/o/sub_broad_4strong.csv: 37439 rows; top-1 picks cover 46 of 50 words
+SUBMISSION 4 READY

@@ -1,0 +1,27 @@
+{
+ "deep": {
+  "lam": 1.5,
+  "tau": -0.25,
+  "bacc10": 0.6494280094755256,
+  "bacc1": 0.13418030171762083,
+  "n": 2321,
+  "members": [
+   "d/r/p1d/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_deep_cq0.npz",
+   "d/o/xv_deep_cq1.npz",
+   "d/o/xv_deep_cq2.npz",
+   "d/o/xv_deep_cq3.npz",
+   "d/o/xv_deep_cw0.npz",
+   "d/o/xv_deep_cw1.npz",
+   "d/o/xv_deep_s1.npz",
+   "d/o/xv_deep_s1.npz",
+   "d/o/xv_deep_s1.npz",
+   "d/o/xv_deep_s1.npz",
+   "d/o/xv_deep_s1.npz",
+   "d/o/xv_deep_s1.npz"
+  ],
+  "split": 1
+ }
+}

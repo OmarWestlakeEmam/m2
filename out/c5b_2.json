@@ -1,0 +1,18 @@
+{
+ "broad": {
+  "lam": 0.0,
+  "tau": -0.25,
+  "bacc10": 0.6645173014151442,
+  "bacc1": 0.1766340998158108,
+  "n": 6924,
+  "members": [
+   "d/r/p1b/best.pt",
+   "d/r/r1b/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_broad_s1.npz",
+   "d/o/xv_broad_s1.npz"
+  ],
+  "split": 1
+ }
+}

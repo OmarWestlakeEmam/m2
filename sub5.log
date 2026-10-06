@@ -1,0 +1,20 @@
+nohup: ignoring input
+=== deep k3
+02:10:04 ensemble of 10: bacc10 0.6445 bacc1 0.1358 at lam 0.0 tau -0.25
+02:10:08 wrote /data/omar/m2/d/o/sub_deep_5k3.csv: 960 rows; top-1 picks cover 40 of 50 words
+=== deep k6
+02:10:29 ensemble of 13: bacc10 0.6494 bacc1 0.1342 at lam 1.5 tau -0.25
+02:10:32 wrote /data/omar/m2/d/o/sub_deep_5k6.csv: 960 rows; top-1 picks cover 40 of 50 words
+=== deep k12
+02:11:00 ensemble of 19: bacc10 0.6420 bacc1 0.1357 at lam 1.5 tau -0.25
+02:11:04 wrote /data/omar/m2/d/o/sub_deep_5k12.csv: 960 rows; top-1 picks cover 43 of 50 words
+=== broad k2
+02:11:47 ensemble of 4: bacc10 0.6645 bacc1 0.1766 at lam 0.0 tau -0.25
+02:12:06 wrote /data/omar/m2/d/o/sub_broad_5k2.csv: 37439 rows; top-1 picks cover 45 of 50 words
+=== broad k4
+02:13:13 ensemble of 6: bacc10 0.6707 bacc1 0.1642 at lam 1.0 tau -0.25
+02:13:33 wrote /data/omar/m2/d/o/sub_broad_5k4.csv: 37439 rows; top-1 picks cover 45 of 50 words
+=== broad k8
+02:15:32 ensemble of 10: bacc10 0.6713 bacc1 0.1710 at lam 1.0 tau -0.25
+02:15:51 wrote /data/omar/m2/d/o/sub_broad_5k8.csv: 37439 rows; top-1 picks cover 45 of 50 words
+SUBMISSION 5 READY

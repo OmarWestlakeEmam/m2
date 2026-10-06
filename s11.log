@@ -1,0 +1,235 @@
+nohup: ignoring input
+/data/omar/m2/core/seq.py:146: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+04:30:12 65587 train sentences, 2977 val chunks, pre 125
+04:30:25 ep 0 step 100 word 3.290 base 3.280 mean 11.787 lr x0.333 0.12s/step
+04:30:34 ep 0 step 200 word 3.273 base 3.245 mean 9.734 lr x0.666 0.09s/step
+04:30:42 ep 0 step 300 word 3.251 base 3.215 mean 9.702 lr x0.999 0.08s/step
+04:30:50 ep 0 step 400 word 3.289 base 3.242 mean 9.438 lr x0.999 0.08s/step
+04:30:59 ep 0 step 500 word 3.246 base 3.207 mean 9.352 lr x0.998 0.08s/step
+04:31:06 ep 0 step 600 word 3.272 base 3.245 mean 9.287 lr x0.997 0.08s/step
+04:31:15 ep 0 step 700 word 3.239 base 3.203 mean 9.245 lr x0.996 0.08s/step
+04:31:23 ep 0 step 800 word 3.226 base 3.199 mean 9.377 lr x0.995 0.08s/step
+04:31:31 ep 0 step 900 word 3.282 base 3.266 mean 9.003 lr x0.994 0.08s/step
+04:31:39 ep 0 step 1000 word 3.211 base 3.201 mean 9.061 lr x0.993 0.08s/step
+04:31:48 ep 0 step 1100 word 3.283 base 3.277 mean 8.957 lr x0.991 0.08s/step
+04:31:56 ep 0 step 1200 word 3.244 base 3.256 mean 8.852 lr x0.989 0.08s/step
+04:32:04 ep 0 step 1300 word 3.233 base 3.258 mean 8.762 lr x0.988 0.08s/step
+04:32:12 ep 0 step 1400 word 3.188 base 3.218 mean 8.683 lr x0.986 0.08s/step
+04:32:19 ep 0 step 1500 word 3.202 base 3.253 mean 8.623 lr x0.983 0.07s/step
+04:32:34 == epoch 0 deep: bacc10 0.2490 best 0.3170@lam1.0 | broad: bacc10 0.2412 best 0.3779@lam1.0
+04:32:38 new best 0.3475
+04:32:41 new best deep 0.3170
+04:32:44 new best broad 0.3779
+04:32:54 ep 1 step 1600 word 3.215 base 3.264 mean 8.664 lr x0.981 0.10s/step
+04:33:02 ep 1 step 1700 word 3.188 base 3.265 mean 8.691 lr x0.979 0.08s/step
+04:33:10 ep 1 step 1800 word 3.186 base 3.268 mean 8.496 lr x0.976 0.07s/step
+04:33:17 ep 1 step 1900 word 3.177 base 3.272 mean 8.443 lr x0.974 0.08s/step
+04:33:26 ep 1 step 2000 word 3.195 base 3.295 mean 8.340 lr x0.971 0.08s/step
+04:33:34 ep 1 step 2100 word 3.160 base 3.272 mean 8.274 lr x0.968 0.08s/step
+04:33:42 ep 1 step 2200 word 3.127 base 3.250 mean 8.233 lr x0.965 0.08s/step
+04:33:50 ep 1 step 2300 word 3.095 base 3.210 mean 8.290 lr x0.961 0.08s/step
+04:33:57 ep 1 step 2400 word 3.112 base 3.235 mean 8.198 lr x0.958 0.08s/step
+04:34:05 ep 1 step 2500 word 3.105 base 3.248 mean 8.127 lr x0.955 0.08s/step
+04:34:14 ep 1 step 2600 word 3.172 base 3.296 mean 8.171 lr x0.951 0.09s/step
+04:34:22 ep 1 step 2700 word 3.109 base 3.275 mean 8.078 lr x0.947 0.08s/step
+04:34:30 ep 1 step 2800 word 3.104 base 3.273 mean 7.935 lr x0.943 0.08s/step
+04:34:39 ep 1 step 2900 word 3.102 base 3.266 mean 7.999 lr x0.939 0.09s/step
+04:34:46 ep 1 step 3000 word 3.130 base 3.288 mean 7.896 lr x0.935 0.07s/step
+04:35:00 == epoch 1 deep: bacc10 0.3241 best 0.3979@lam1.0 | broad: bacc10 0.3217 best 0.4565@lam1.0
+04:35:02 new best 0.4272
+04:35:04 new best deep 0.3979
+04:35:05 new best broad 0.4565
+04:35:16 ep 2 step 3100 word 3.085 base 3.284 mean 7.893 lr x0.931 0.10s/step
+04:35:25 ep 2 step 3200 word 3.080 base 3.276 mean 7.835 lr x0.926 0.09s/step
+04:35:32 ep 2 step 3300 word 3.074 base 3.264 mean 7.720 lr x0.922 0.08s/step
+04:35:41 ep 2 step 3400 word 3.077 base 3.279 mean 7.891 lr x0.917 0.08s/step
+04:35:49 ep 2 step 3500 word 3.076 base 3.304 mean 7.681 lr x0.912 0.08s/step
+04:35:57 ep 2 step 3600 word 2.987 base 3.236 mean 7.799 lr x0.907 0.08s/step
+04:36:06 ep 2 step 3700 word 3.042 base 3.256 mean 7.697 lr x0.902 0.08s/step
+04:36:13 ep 2 step 3800 word 3.051 base 3.309 mean 7.564 lr x0.897 0.08s/step
+04:36:21 ep 2 step 3900 word 3.021 base 3.273 mean 7.591 lr x0.892 0.08s/step
+04:36:29 ep 2 step 4000 word 2.995 base 3.259 mean 7.385 lr x0.887 0.08s/step
+04:36:37 ep 2 step 4100 word 2.991 base 3.270 mean 7.484 lr x0.881 0.08s/step
+04:36:45 ep 2 step 4200 word 3.024 base 3.304 mean 7.343 lr x0.875 0.08s/step
+04:36:53 ep 2 step 4300 word 3.002 base 3.278 mean 7.228 lr x0.870 0.08s/step
+04:37:01 ep 2 step 4400 word 2.955 base 3.251 mean 7.363 lr x0.864 0.08s/step
+04:37:08 ep 2 step 4500 word 2.957 base 3.269 mean 7.236 lr x0.858 0.07s/step
+04:37:21 == epoch 2 deep: bacc10 0.3977 best 0.4831@lam1.0 | broad: bacc10 0.4100 best 0.5764@lam1.0
+04:37:24 new best 0.5298
+04:37:25 new best deep 0.4831
+04:37:27 new best broad 0.5764
+04:37:37 ep 3 step 4600 word 2.922 base 3.263 mean 7.251 lr x0.852 0.10s/step
+04:37:46 ep 3 step 4700 word 2.952 base 3.242 mean 7.243 lr x0.846 0.09s/step
+04:37:54 ep 3 step 4800 word 2.906 base 3.249 mean 7.193 lr x0.840 0.08s/step
+04:38:02 ep 3 step 4900 word 2.951 base 3.293 mean 6.983 lr x0.833 0.08s/step
+04:38:10 ep 3 step 5000 word 2.937 base 3.270 mean 7.044 lr x0.827 0.08s/step
+04:38:18 ep 3 step 5100 word 2.931 base 3.274 mean 7.011 lr x0.820 0.08s/step
+04:38:26 ep 3 step 5200 word 2.923 base 3.270 mean 6.989 lr x0.814 0.08s/step
+04:38:34 ep 3 step 5300 word 2.934 base 3.292 mean 6.959 lr x0.807 0.08s/step
+04:38:42 ep 3 step 5400 word 2.948 base 3.295 mean 7.086 lr x0.800 0.08s/step
+04:38:50 ep 3 step 5500 word 2.863 base 3.239 mean 6.964 lr x0.793 0.08s/step
+04:38:58 ep 3 step 5600 word 2.915 base 3.279 mean 6.875 lr x0.786 0.08s/step
+04:39:06 ep 3 step 5700 word 2.864 base 3.251 mean 6.787 lr x0.779 0.08s/step
+04:39:14 ep 3 step 5800 word 2.909 base 3.279 mean 6.965 lr x0.772 0.08s/step
+04:39:22 ep 3 step 5900 word 2.894 base 3.261 mean 6.784 lr x0.765 0.08s/step
+04:39:29 ep 3 step 6000 word 2.868 base 3.281 mean 6.769 lr x0.758 0.07s/step
+04:39:43 == epoch 3 deep: bacc10 0.4566 best 0.5597@lam1.0 | broad: bacc10 0.4850 best 0.6433@lam1.0
+04:39:46 new best 0.6015
+04:39:47 new best deep 0.5597
+04:39:48 new best broad 0.6433
+04:39:59 ep 4 step 6100 word 2.891 base 3.276 mean 6.648 lr x0.750 0.10s/step
+04:40:07 ep 4 step 6200 word 2.883 base 3.290 mean 6.690 lr x0.743 0.08s/step
+04:40:15 ep 4 step 6300 word 2.865 base 3.241 mean 6.870 lr x0.735 0.08s/step
+04:40:23 ep 4 step 6400 word 2.888 base 3.287 mean 6.735 lr x0.728 0.08s/step
+04:40:30 ep 4 step 6500 word 2.848 base 3.294 mean 6.528 lr x0.720 0.07s/step
+04:40:38 ep 4 step 6600 word 2.840 base 3.257 mean 6.583 lr x0.712 0.08s/step
+04:40:46 ep 4 step 6700 word 2.829 base 3.252 mean 6.484 lr x0.705 0.08s/step
+04:40:54 ep 4 step 6800 word 2.821 base 3.253 mean 6.503 lr x0.697 0.08s/step
+04:41:02 ep 4 step 6900 word 2.868 base 3.287 mean 6.401 lr x0.689 0.08s/step
+04:41:10 ep 4 step 7000 word 2.853 base 3.282 mean 6.504 lr x0.681 0.08s/step
+04:41:18 ep 4 step 7100 word 2.832 base 3.278 mean 6.453 lr x0.673 0.08s/step
+04:41:26 ep 4 step 7200 word 2.825 base 3.276 mean 6.467 lr x0.665 0.08s/step
+04:41:34 ep 4 step 7300 word 2.805 base 3.271 mean 6.389 lr x0.657 0.08s/step
+04:41:42 ep 4 step 7400 word 2.792 base 3.251 mean 6.492 lr x0.649 0.08s/step
+04:41:48 ep 4 step 7500 word 2.799 base 3.283 mean 6.431 lr x0.641 0.07s/step
+04:42:02 == epoch 4 deep: bacc10 0.4732 best 0.5855@lam1.0 | broad: bacc10 0.5050 best 0.6616@lam1.0
+04:42:05 new best 0.6235
+04:42:06 new best deep 0.5855
+04:42:07 new best broad 0.6616
+04:42:17 ep 5 step 7600 word 2.782 base 3.236 mean 6.407 lr x0.632 0.10s/step
+04:42:25 ep 5 step 7700 word 2.768 base 3.245 mean 6.321 lr x0.624 0.08s/step
+04:42:34 ep 5 step 7800 word 2.772 base 3.264 mean 6.268 lr x0.616 0.09s/step
+04:42:42 ep 5 step 7900 word 2.836 base 3.291 mean 6.459 lr x0.608 0.08s/step
+04:42:51 ep 5 step 8000 word 2.777 base 3.267 mean 6.345 lr x0.599 0.08s/step
+04:42:59 ep 5 step 8100 word 2.772 base 3.244 mean 6.312 lr x0.591 0.08s/step
+04:43:07 ep 5 step 8200 word 2.782 base 3.278 mean 6.349 lr x0.583 0.08s/step
+04:43:15 ep 5 step 8300 word 2.782 base 3.245 mean 6.198 lr x0.574 0.08s/step
+04:43:23 ep 5 step 8400 word 2.730 base 3.248 mean 6.144 lr x0.566 0.08s/step
+04:43:30 ep 5 step 8500 word 2.776 base 3.296 mean 6.014 lr x0.557 0.08s/step
+04:43:38 ep 5 step 8600 word 2.744 base 3.226 mean 6.154 lr x0.549 0.08s/step
+04:43:47 ep 5 step 8700 word 2.710 base 3.226 mean 6.244 lr x0.540 0.08s/step
+04:43:55 ep 5 step 8800 word 2.748 base 3.268 mean 6.167 lr x0.532 0.08s/step
+04:44:03 ep 5 step 8900 word 2.733 base 3.266 mean 6.022 lr x0.524 0.08s/step
+04:44:10 ep 5 step 9000 word 2.751 base 3.262 mean 6.153 lr x0.515 0.07s/step
+04:44:23 == epoch 5 deep: bacc10 0.4958 best 0.6084@lam1.0 | broad: bacc10 0.5125 best 0.6642@lam1.0
+04:44:26 new best 0.6363
+04:44:27 new best deep 0.6084
+04:44:29 new best broad 0.6642
+04:44:39 ep 6 step 9100 word 2.734 base 3.266 mean 5.984 lr x0.507 0.11s/step
+04:44:48 ep 6 step 9200 word 2.737 base 3.258 mean 6.077 lr x0.498 0.09s/step
+04:44:56 ep 6 step 9300 word 2.730 base 3.249 mean 6.205 lr x0.490 0.08s/step
+04:45:05 ep 6 step 9400 word 2.691 base 3.220 mean 6.014 lr x0.481 0.08s/step
+04:45:12 ep 6 step 9500 word 2.744 base 3.271 mean 6.121 lr x0.473 0.08s/step
+04:45:21 ep 6 step 9600 word 2.674 base 3.249 mean 5.894 lr x0.464 0.09s/step
+04:45:29 ep 6 step 9700 word 2.698 base 3.245 mean 5.946 lr x0.456 0.08s/step
+04:45:37 ep 6 step 9800 word 2.655 base 3.231 mean 6.006 lr x0.448 0.08s/step
+04:45:45 ep 6 step 9900 word 2.700 base 3.276 mean 5.961 lr x0.439 0.08s/step
+04:45:53 ep 6 step 10000 word 2.706 base 3.239 mean 5.961 lr x0.431 0.08s/step
+04:46:01 ep 6 step 10100 word 2.705 base 3.237 mean 5.992 lr x0.423 0.08s/step
+04:46:08 ep 6 step 10200 word 2.667 base 3.244 mean 5.831 lr x0.414 0.08s/step
+04:46:16 ep 6 step 10300 word 2.693 base 3.284 mean 5.886 lr x0.406 0.08s/step
+04:46:25 ep 6 step 10400 word 2.670 base 3.270 mean 5.832 lr x0.398 0.08s/step
+04:46:32 ep 6 step 10500 word 2.655 base 3.251 mean 5.961 lr x0.390 0.07s/step
+04:46:46 == epoch 6 deep: bacc10 0.4968 best 0.6187@lam1.0 | broad: bacc10 0.5083 best 0.6555@lam1.0
+04:46:50 new best 0.6371
+04:46:51 new best deep 0.6187
+04:47:01 ep 7 step 10600 word 2.670 base 3.252 mean 5.811 lr x0.381 0.09s/step
+04:47:09 ep 7 step 10700 word 2.662 base 3.234 mean 5.807 lr x0.373 0.08s/step
+04:47:17 ep 7 step 10800 word 2.665 base 3.242 mean 5.802 lr x0.365 0.08s/step
+04:47:25 ep 7 step 10900 word 2.643 base 3.249 mean 5.812 lr x0.357 0.08s/step
+04:47:34 ep 7 step 11000 word 2.646 base 3.273 mean 5.793 lr x0.349 0.08s/step
+04:47:42 ep 7 step 11100 word 2.658 base 3.257 mean 5.825 lr x0.341 0.08s/step
+04:47:50 ep 7 step 11200 word 2.604 base 3.206 mean 5.722 lr x0.333 0.08s/step
+04:47:58 ep 7 step 11300 word 2.642 base 3.237 mean 5.757 lr x0.326 0.08s/step
+04:48:06 ep 7 step 11400 word 2.637 base 3.244 mean 5.758 lr x0.318 0.08s/step
+04:48:14 ep 7 step 11500 word 2.596 base 3.201 mean 5.609 lr x0.310 0.08s/step
+04:48:22 ep 7 step 11600 word 2.633 base 3.252 mean 5.853 lr x0.302 0.08s/step
+04:48:30 ep 7 step 11700 word 2.642 base 3.257 mean 5.684 lr x0.295 0.08s/step
+04:48:39 ep 7 step 11800 word 2.600 base 3.232 mean 5.719 lr x0.287 0.08s/step
+04:48:47 ep 7 step 11900 word 2.662 base 3.272 mean 5.778 lr x0.280 0.08s/step
+04:48:54 ep 7 step 12000 word 2.558 base 3.237 mean 5.658 lr x0.273 0.07s/step
+04:49:09 == epoch 7 deep: bacc10 0.5073 best 0.6097@lam1.0 | broad: bacc10 0.5005 best 0.6621@lam1.0
+04:49:20 ep 8 step 12100 word 2.594 base 3.248 mean 5.594 lr x0.265 0.10s/step
+04:49:28 ep 8 step 12200 word 2.580 base 3.217 mean 5.555 lr x0.258 0.08s/step
+04:49:36 ep 8 step 12300 word 2.611 base 3.255 mean 5.734 lr x0.251 0.08s/step
+04:49:44 ep 8 step 12400 word 2.607 base 3.254 mean 5.593 lr x0.244 0.08s/step
+04:49:52 ep 8 step 12500 word 2.562 base 3.227 mean 5.555 lr x0.237 0.08s/step
+04:50:01 ep 8 step 12600 word 2.501 base 3.184 mean 5.609 lr x0.230 0.08s/step
+04:50:09 ep 8 step 12700 word 2.609 base 3.250 mean 5.626 lr x0.223 0.08s/step
+04:50:17 ep 8 step 12800 word 2.564 base 3.247 mean 5.656 lr x0.216 0.08s/step
+04:50:25 ep 8 step 12900 word 2.572 base 3.264 mean 5.599 lr x0.210 0.08s/step
+04:50:33 ep 8 step 13000 word 2.576 base 3.241 mean 5.655 lr x0.203 0.08s/step
+04:50:41 ep 8 step 13100 word 2.574 base 3.232 mean 5.705 lr x0.197 0.08s/step
+04:50:49 ep 8 step 13200 word 2.531 base 3.218 mean 5.552 lr x0.191 0.08s/step
+04:50:57 ep 8 step 13300 word 2.552 base 3.219 mean 5.667 lr x0.184 0.09s/step
+04:51:05 ep 8 step 13400 word 2.539 base 3.233 mean 5.498 lr x0.178 0.08s/step
+04:51:12 ep 8 step 13500 word 2.534 base 3.234 mean 5.522 lr x0.172 0.07s/step
+04:51:26 == epoch 8 deep: bacc10 0.5157 best 0.6161@lam1.0 | broad: bacc10 0.4962 best 0.6458@lam1.0
+04:51:37 ep 9 step 13600 word 2.567 base 3.239 mean 5.501 lr x0.166 0.10s/step
+04:51:45 ep 9 step 13700 word 2.512 base 3.208 mean 5.441 lr x0.160 0.08s/step
+04:51:53 ep 9 step 13800 word 2.576 base 3.209 mean 5.537 lr x0.155 0.08s/step
+04:52:01 ep 9 step 13900 word 2.544 base 3.255 mean 5.328 lr x0.149 0.08s/step
+04:52:09 ep 9 step 14000 word 2.590 base 3.248 mean 5.559 lr x0.144 0.08s/step
+04:52:17 ep 9 step 14100 word 2.551 base 3.271 mean 5.353 lr x0.138 0.08s/step
+04:52:25 ep 9 step 14200 word 2.558 base 3.223 mean 5.540 lr x0.133 0.08s/step
+04:52:33 ep 9 step 14300 word 2.564 base 3.231 mean 5.452 lr x0.128 0.08s/step
+04:52:41 ep 9 step 14400 word 2.563 base 3.247 mean 5.479 lr x0.123 0.08s/step
+04:52:49 ep 9 step 14500 word 2.492 base 3.212 mean 5.351 lr x0.118 0.08s/step
+04:52:57 ep 9 step 14600 word 2.559 base 3.250 mean 5.405 lr x0.113 0.08s/step
+04:53:04 ep 9 step 14700 word 2.494 base 3.205 mean 5.416 lr x0.108 0.08s/step
+04:53:13 ep 9 step 14800 word 2.506 base 3.223 mean 5.375 lr x0.104 0.08s/step
+04:53:20 ep 9 step 14900 word 2.527 base 3.241 mean 5.396 lr x0.099 0.08s/step
+04:53:28 ep 9 step 15000 word 2.462 base 3.204 mean 5.254 lr x0.095 0.07s/step
+04:53:41 == epoch 9 deep: bacc10 0.4995 best 0.6196@lam1.0 | broad: bacc10 0.4749 best 0.6394@lam1.0
+04:53:44 new best deep 0.6196
+04:53:54 ep 10 step 15100 word 2.500 base 3.231 mean 5.301 lr x0.091 0.11s/step
+04:54:03 ep 10 step 15200 word 2.496 base 3.223 mean 5.400 lr x0.087 0.08s/step
+04:54:11 ep 10 step 15300 word 2.505 base 3.247 mean 5.351 lr x0.083 0.08s/step
+04:54:18 ep 10 step 15400 word 2.575 base 3.263 mean 5.559 lr x0.079 0.08s/step
+04:54:26 ep 10 step 15500 word 2.466 base 3.219 mean 5.404 lr x0.075 0.08s/step
+04:54:34 ep 10 step 15600 word 2.471 base 3.219 mean 5.309 lr x0.072 0.08s/step
+04:54:43 ep 10 step 15700 word 2.513 base 3.257 mean 5.377 lr x0.069 0.08s/step
+04:54:51 ep 10 step 15800 word 2.557 base 3.269 mean 5.417 lr x0.065 0.08s/step
+04:54:59 ep 10 step 15900 word 2.461 base 3.187 mean 5.351 lr x0.062 0.08s/step
+04:55:07 ep 10 step 16000 word 2.484 base 3.245 mean 5.265 lr x0.059 0.08s/step
+04:55:16 ep 10 step 16100 word 2.491 base 3.252 mean 5.359 lr x0.056 0.09s/step
+04:55:24 ep 10 step 16200 word 2.484 base 3.198 mean 5.306 lr x0.054 0.08s/step
+04:55:32 ep 10 step 16300 word 2.485 base 3.224 mean 5.426 lr x0.051 0.08s/step
+04:55:40 ep 10 step 16400 word 2.465 base 3.219 mean 5.330 lr x0.049 0.08s/step
+04:55:47 ep 10 step 16500 word 2.498 base 3.243 mean 5.332 lr x0.047 0.07s/step
+04:56:01 == epoch 10 deep: bacc10 0.5027 best 0.6194@lam1.0 | broad: bacc10 0.4712 best 0.6300@lam1.0
+04:56:13 ep 11 step 16600 word 2.522 base 3.250 mean 5.273 lr x0.044 0.10s/step
+04:56:21 ep 11 step 16700 word 2.495 base 3.233 mean 5.397 lr x0.042 0.08s/step
+04:56:32 ep 11 step 16800 word 2.526 base 3.230 mean 5.298 lr x0.041 0.11s/step
+04:56:43 ep 11 step 16900 word 2.462 base 3.224 mean 5.334 lr x0.039 0.11s/step
+04:56:53 ep 11 step 17000 word 2.489 base 3.234 mean 5.173 lr x0.037 0.11s/step
+04:57:04 ep 11 step 17100 word 2.476 base 3.219 mean 5.287 lr x0.036 0.11s/step
+04:57:16 ep 11 step 17200 word 2.480 base 3.201 mean 5.267 lr x0.035 0.11s/step
+04:57:25 ep 11 step 17300 word 2.519 base 3.234 mean 5.373 lr x0.034 0.10s/step
+04:57:35 ep 11 step 17400 word 2.450 base 3.199 mean 5.197 lr x0.033 0.10s/step
+04:57:43 ep 11 step 17500 word 2.446 base 3.198 mean 5.280 lr x0.032 0.08s/step
+04:57:50 ep 11 step 17600 word 2.433 base 3.191 mean 5.283 lr x0.031 0.08s/step
+04:57:58 ep 11 step 17700 word 2.468 base 3.218 mean 5.271 lr x0.031 0.08s/step
+04:58:06 ep 11 step 17800 word 2.462 base 3.217 mean 5.223 lr x0.030 0.08s/step
+04:58:14 ep 11 step 17900 word 2.498 base 3.237 mean 5.286 lr x0.030 0.08s/step
+04:58:21 ep 11 step 18000 word 2.506 base 3.220 mean 5.310 lr x0.030 0.07s/step
+04:58:34 == epoch 11 deep: bacc10 0.5150 best 0.6129@lam0.5 | broad: bacc10 0.4677 best 0.6274@lam1.0
+04:58:35 done. best 0.6371
+04:58:40 loading /data/omar/m2/d/r/s11/best_deep.pt
+/data/omar/m2/core/seq.py:146: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+04:58:44 deep val {'bacc10': 0.49946843074726466, 'best': 0.6195846910145775, 'lam': 1.0, 'n': 2321} -> /data/omar/m2/d/o/xv_deep_s11.npz
+04:58:47 loading /data/omar/m2/d/r/s11/best_broad.pt
+/data/omar/m2/core/seq.py:146: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+04:58:58 broad val {'bacc10': 0.5126183195591003, 'best': 0.6632395260820401, 'lam': 1.0, 'n': 6924} -> /data/omar/m2/d/o/xv_broad_s11.npz
+04:59:00 loading /data/omar/m2/d/r/s11/best_deep.pt
+/data/omar/m2/core/seq.py:146: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+04:59:04 -> /data/omar/m2/d/o/x_deep_s11.npz (248 sentences/words, lam 1.0)
+04:59:07 loading /data/omar/m2/d/r/s11/best_broad.pt
+/data/omar/m2/core/seq.py:146: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.tf = nn.TransformerEncoder(layer, depth)
+05:01:13 -> /data/omar/m2/d/o/x_broad_s11.npz (9671 sentences/words, lam 1.0)
+SEQ s11 DONE

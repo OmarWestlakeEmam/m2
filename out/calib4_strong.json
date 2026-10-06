@@ -1,0 +1,41 @@
+{
+ "deep": {
+  "lam": 0.25,
+  "tau": -0.25,
+  "bacc10": 0.502090943661025,
+  "bacc1": 0.0821012599752576,
+  "n": 2321,
+  "members": [
+   "d/r/p1d/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_deep_cq0.npz",
+   "d/o/xv_deep_cq1.npz",
+   "d/o/xv_deep_cq2.npz",
+   "d/o/xv_deep_cq3.npz",
+   "d/o/xv_deep_cw0.npz",
+   "d/o/xv_deep_cw1.npz"
+  ],
+  "split": 1
+ },
+ "broad": {
+  "lam": 1.0,
+  "tau": -0.25,
+  "bacc10": 0.4455522384118537,
+  "bacc1": 0.06347294306144528,
+  "n": 6924,
+  "members": [
+   "d/r/p1b/best.pt",
+   "d/r/r1b/best.pt"
+  ],
+  "extra": [
+   "d/o/xv_broad_cq0.npz",
+   "d/o/xv_broad_cq1.npz",
+   "d/o/xv_broad_cq2.npz",
+   "d/o/xv_broad_cq3.npz",
+   "d/o/xv_broad_cw0.npz",
+   "d/o/xv_broad_cw1.npz"
+  ],
+  "split": 1
+ }
+}
